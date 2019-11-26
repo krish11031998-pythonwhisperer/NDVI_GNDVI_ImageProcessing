@@ -13,21 +13,23 @@ State-of-the-art sensors and cameras are used to measure the physical parameters
 
 Considering this project involves plants as are main objects, well established measurement parameters like NDVI & GNDVI and other physical properties of the plants like dimensions can be extracted from the image using multispectral cameras shot in different light spectrum bands.
 
-<img width="510" alt="Image_2" src="https://user-images.githubusercontent.com/56647167/69622212-f5c9d380-1059-11ea-89d4-7bff144a839d.png">
+<img width="810" alt="Image_2" src="https://user-images.githubusercontent.com/56647167/69622212-f5c9d380-1059-11ea-89d4-7bff144a839d.png">
+
+---
 
 ## Image Pre-Processing 
 
-<img width="389" alt="Image_5" src="https://user-images.githubusercontent.com/56647167/69622322-2a3d8f80-105a-11ea-9f26-ea349e788023.png">
+<img width="800" alt="Image_5" src="https://user-images.githubusercontent.com/56647167/69622320-2873cc00-105a-11ea-81b0-952c1a899b06.png">
 
 1. Processing
 * The RAW images are converted into an 8-bit grayscale JPEG image which is then feed into the calibration method to produce a reflectance calibrated image.
 
-<img width="296" alt="Image_4" src="https://user-images.githubusercontent.com/56647167/69622318-27429f00-105a-11ea-8563-7018ac3c0829.png">
+<img width="500" alt="Image_4" src="https://user-images.githubusercontent.com/56647167/69622318-27429f00-105a-11ea-8563-7018ac3c0829.png">
 
 2. Calibarated
 * The process of transforming the pixel values would produce a near perfect RGN (RED – GREEN - NIR) image in the respective surrounding environment which can now be used to generate the NDVI, GNDVI and physical dimensions of the plant using computer vision algorithms.
 
-<img width="331" alt="Image_3" src="https://user-images.githubusercontent.com/56647167/69622316-26117200-105a-11ea-8a96-0166a9efcc92.png">
+<img width="500" alt="Image_3" src="https://user-images.githubusercontent.com/56647167/69622316-26117200-105a-11ea-8a96-0166a9efcc92.png">
 
 3.  Image Segmentation
 * The plants/leafs are segmented from the environment to precise draw the edges of the plant/leafs of the plant to accurately evaluate the dimensions, NDVI & GNDVI values of the plant only by subtracting the background of the image.
@@ -54,6 +56,12 @@ Green-Normalized Difference Vegetation Index is also graphical indicator and a s
 GNDVI-RESULT
 
 <img width="493" alt="Image_9" src="https://user-images.githubusercontent.com/56647167/69622338-31649d80-105a-11ea-8891-bca30f68f499.png">
+
+
+### FINAL RESULT
+
+<img width="800" alt="Image_5" src="https://user-images.githubusercontent.com/56647167/69622322-2a3d8f80-105a-11ea-9f26-ea349e788023.png">
+
 
 
 ## Calculating the Dimensions of the Plant
