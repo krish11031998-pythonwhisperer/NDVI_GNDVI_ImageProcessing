@@ -19,7 +19,7 @@ Considering this project involves plants as are main objects, well established m
 
 ## Image Pre-Processing 
 
-<img width="800" alt="Image_5" src="https://user-images.githubusercontent.com/56647167/69622320-2873cc00-105a-11ea-81b0-952c1a899b06.png">
+<img width="515" alt="Image_5" src="https://user-images.githubusercontent.com/56647167/69622320-2873cc00-105a-11ea-81b0-952c1a899b06.png">
 
 1. Processing
 * The RAW images are converted into an 8-bit grayscale JPEG image which is then feed into the calibration method to produce a reflectance calibrated image.
