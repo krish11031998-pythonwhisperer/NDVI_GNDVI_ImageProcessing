@@ -34,7 +34,6 @@ Considering this project involves plants as are main objects, well established m
 3.  Image Segmentation
 * The plants/leafs are segmented from the environment to precise draw the edges of the plant/leafs of the plant to accurately evaluate the dimensions, NDVI & GNDVI values of the plant only by subtracting the background of the image.
 
-<img width="618" alt="Image_7" src="https://user-images.githubusercontent.com/56647167/69622324-2dd11680-105a-11ea-8e8d-c0aa10e7800c.png">
 
 
 ## Calculating the Vegetation Index
@@ -76,3 +75,6 @@ Once the contour maps are generated, the contour map is used to calculate the ed
 
 
 The contour maps were generated from the segmented image, the Distance of the contours are measured in pixels’ unit. To convert the measurements units from pixels to a desired unit (like inches), a test image of an object with predetermined dimensions (like a coin) should be taken from a stationary angle. Once the test image taken, test image is used for calculating the unit conversion factor to convert the units from pixels to any desired unit (like inches).
+
+
+<img width="618" alt="Image_7" src="https://user-images.githubusercontent.com/56647167/69622324-2dd11680-105a-11ea-8e8d-c0aa10e7800c.png">
