@@ -43,7 +43,7 @@ Normalized Difference Vegetation Index (NDVI) is a graphical indicator which vis
 
 NDVI is calculated from these individual measurements as follows: –
 
-<img width="493" alt="Image_12" src="https://user-images.githubusercontent.com/56647167/69622338-31649d80-105a-11ea-8891-bca30f68f499.png">
+<img width="180" alt="Image_12" src="https://user-images.githubusercontent.com/56647167/69622347-3590bb00-105a-11ea-863a-939b04ef731f.png">
 
 where RED and NIR stand for the spectral reflectance measurements acquired in the red and near-infrared regions, respectively. NDVI itself thus varies between -1.0 and +1.0.
 
@@ -52,6 +52,8 @@ NDVI-RESULT
 <img width="493" alt="Image_10" src="https://user-images.githubusercontent.com/56647167/69622338-31649d80-105a-11ea-8891-bca30f68f499.png">
 
 Green-Normalized Difference Vegetation Index is also graphical indicator and a slightly modified version of NDVI which uses the Green and Near-infrared (NIR) spectrum of light of the light rather than the conventional Red and Near-infrared (NIR) spectrum of light. The following is the formulation to estimate the GNDVI of the area under observational.
+
+<img width="180" alt="Image_11" src="https://user-images.githubusercontent.com/56647167/69622343-332e6100-105a-11ea-90c5-8503e66fe494.png">
 
 GNDVI-RESULT
 
@@ -64,7 +66,7 @@ GNDVI-RESULT
 
 
 
-## Calculating the Dimensions of the Plant
+## Segmenting and Calculating the Dimensions of the Plant
 
 <img width="515" alt="Image_8" src="https://user-images.githubusercontent.com/56647167/69622328-2f024380-105a-11ea-8eda-dff4673d127f.png">
 
