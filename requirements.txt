@@ -47,7 +47,7 @@ datashape==0.5.4
 decorator==4.3.0
 dill==0.3.0
 distributed==1.21.8
-Django==2.2.6
+Django==2.2.10
 django-gulp==4.1.0
 docutils==0.14
 dropbox==9.0.0
